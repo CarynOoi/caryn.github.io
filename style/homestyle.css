@@ -1,0 +1,85 @@
+/* general style accross all pages */
+
+*{
+    background-color: #f5f4ef;
+    font-family: "Quicksand";
+    color: #53524E;
+}
+
+header{
+    height:110px;
+}
+
+div, header, footer{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+.title{
+    height:150px;
+}
+
+h2{
+    font-size: 50px;
+    text-align:center
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    list-style-type: none;
+    background-color:#dedbd1;
+    text-align: center;
+    overflow:hidden;
+    width: 90%;
+    padding-inline-start:0;
+    z-index:10;
+}
+
+ul li{
+    display: inline-block;
+    width: 150px;
+}
+
+ul li a {
+    display: block;
+    color:#53524E ;
+    padding:15px;
+    text-align: center;
+    text-decoration: none;
+    background-color:#dedbd1;
+}
+
+li a:hover:not(.active){
+    background-color: #a2967f;
+}
+
+.active {
+    background-color: #CEC3B2;
+}
+
+.center{
+    text-align: center;
+}
+
+.contact{
+    height:100px;
+}
+
+.contact a{
+    background-color: #dedbd1;
+    color: #53524E;
+    padding: 10px ;
+    margin-bottom: 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;;
+}
+
+footer{
+    margin-top:100px;
+    height:auto;
+}
+
+

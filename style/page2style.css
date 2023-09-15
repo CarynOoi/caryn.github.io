@@ -1,0 +1,34 @@
+/* page2 style */
+#word ul{
+    list-style-type: none;
+}
+
+#word ul li{
+    display:inline-block;
+    height: 200px;
+    width: 180px;
+    text-align: left;
+    margin:25px;
+    font-size: 23px;
+    color: #685e4b;
+    background-color: #c9c2b5;
+    font-weight: bold;
+    padding:  25px;
+    border-radius: 5px;
+}
+
+#word ul li:hover{
+    transition: transform .2s ease;
+    cursor: pointer;
+    background-color: #a2967f;
+}
+
+#ytvideo{
+    margin-top:100px;
+    text-align: center;
+}
+
+#ytvideo iframe{
+    width: 700px;
+    height: 450px;
+}
