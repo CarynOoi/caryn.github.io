@@ -37,10 +37,9 @@ p {
   font-size: 23px;
   color: #685e4b;
   font-weight: bold;
-  transform: rotateY(0deg); /* Initially displayed normally */
   transition: transform 0.5s;
 }
 
 .photo:hover .photo-caption {
-  transform: rotateY(180deg); /* Display caption with flip animation on hover */
+  display: none;
 }
