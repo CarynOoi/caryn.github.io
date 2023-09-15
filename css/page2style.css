@@ -22,13 +22,3 @@
     cursor: pointer;
     background-color: #a2967f;
 }
-
-#ytvideo{
-    margin-top:100px;
-    text-align: center;
-}
-
-#ytvideo iframe{
-    width: 700px;
-    height: 450px;
-}
