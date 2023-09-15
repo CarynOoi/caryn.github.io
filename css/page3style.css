@@ -1,58 +1,46 @@
-/* page3 style */
-
-.sample{
-    margin: 20px;
-    width: 258px;
-    display:inline-block;
-    position: relative;
-    width: 258px;
-}
-  
-.sample img {
-    width: 100%;
-    height: auto;
-  }
-
-h4{
-    margin-left:20px;
-    margin-bottom:5px;
-    font-size:30px;
-}
-
-/* hover effect to display food details from https://www.w3schools.com/howto/howto_css_image_overlay.asp*/
-.image {
-  display:inline-block;
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-.detail{
-  transition: 0.4s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+p {
   text-align: center;
 }
 
-.sample:hover .image {
-  opacity: 0.2;
-  cursor: default;
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.sample:hover .detail {
-  opacity: 1;
-  cursor: default;
+.photo {
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+  perspective: 1000px; /* For 3D effect */
 }
 
-.text {
-  font-size: 28px;
-  border-radius: 25px;
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.photo-caption {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c9c2b5;
+  font-size: 23px;
+  color: #685e4b;
+  font-weight: bold;
+  transform: rotateY(0deg); /* Initially displayed normally */
+  transition: transform 0.5s;
+}
+
+.photo:hover .photo-caption {
+  transform: rotateY(180deg); /* Display caption with flip animation on hover */
 }
