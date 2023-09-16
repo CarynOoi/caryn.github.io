@@ -5,9 +5,8 @@
 
 #word ul li{
     display:inline-block;
-    height: 200px;
+    height: 140px;
     width: 180px;
-    text-align: left;
     margin:25px;
     font-size: 23px;
     color: #685e4b;
@@ -15,10 +14,23 @@
     font-weight: bold;
     padding:  25px;
     border-radius: 5px;
+    vertical-align: top;
 }
 
 #word ul li:hover{
     transition: transform .2s ease;
+    cursor: pointer;
+    background-color: #a2967f;
+}
+
+#word ul li a {
+    display: block; /* Ensures the entire list item is clickable */
+    padding: 15px; 
+    text-decoration: none; /* Remove underlines from links */
+    background-color: #c9c2b5;
+}
+
+#word ul li a:hover {
     cursor: pointer;
     background-color: #a2967f;
 }
