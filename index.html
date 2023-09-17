@@ -7,6 +7,8 @@
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
     <link rel="stylesheet" href="css/homestyle.css">
     <link rel="stylesheet" href="css/indexstyle.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="food_gen.js"></script>
 
     <title> 
         Caryn's Website
@@ -55,15 +57,16 @@
         </div>
     </div>
 </div>
-    
 
-<footer>
-      
-    <div>
-        <p> Thanks for viewing my profile. Have a nice day ahead!</p>
+<div class="container_food">
+    <div class="left-content">
+        <div>Don't know what to have for lunch?</div>
+        <button id="generateFoodButton">Click for surprise!</button>
     </div>
-      
-</footer>
+    <div class="right-content">
+        <div id="food_generator"></div>
+    </div>
+</div>
 
 </body>
 

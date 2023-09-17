@@ -1,6 +1,7 @@
 img {
-    width: 190px;
-    height: 200px;
+    width: 140px;
+    height: 180px;
+    border-radius: 25px;
 }
 
 #intro{
@@ -11,6 +12,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 25px;
 }
 
 .img-container {
@@ -40,4 +42,47 @@ img {
     padding: 0;
     text-decoration: none;
 
+}
+
+#food_generator img {
+    max-width: 100%; /* Make the image responsive within its container */
+    height: auto; /* Maintain the aspect ratio */
+    max-height: 400px; /* Set a maximum height for the image */
+}
+
+#food_generator {
+    float: right;
+    padding: 50px;
+    font-size: 20px;
+}
+
+.container_food {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-content {
+    flex: 1;
+    padding-right: 20px; 
+    min-width: 230px;
+}
+
+.right-content {
+    flex: 1;
+    text-align: center; /* Center the content horizontally */
+}
+
+button {
+    margin-top: 10px;
+    color: black; 
+    border: 2px solid #954535;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+button:hover {
+    background-color: #7B3F00;
+    color: white;
 }

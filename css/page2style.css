@@ -5,14 +5,14 @@
 
 #word ul li{
     display:inline-block;
-    height: 140px;
-    width: 180px;
-    margin:25px;
+    height: 100px;
+    width: 250px;
+    margin:20px;
     font-size: 23px;
     color: #685e4b;
     background-color: #c9c2b5;
     font-weight: bold;
-    padding:  25px;
+    padding:25px;
     border-radius: 5px;
     vertical-align: top;
 }
@@ -33,4 +33,7 @@
 #word ul li a:hover {
     cursor: pointer;
     background-color: #a2967f;
+}
+h2{
+    margin: 0;
 }
