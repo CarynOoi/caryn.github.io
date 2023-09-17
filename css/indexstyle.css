@@ -74,15 +74,14 @@ img {
     text-align: center; /* Center the content horizontally */
 }
 
-button {
+#generateFoodButton {
     margin-top: 10px;
-    color: black; 
     border: 2px solid #954535;
     padding: 10px;
     border-radius: 4px;
   }
   
-button:hover {
+#generateFoodButton:hover {
     background-color: #7B3F00;
     color: white;
 }
